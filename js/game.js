@@ -7,7 +7,7 @@
     return Math.floor(Math.random() * (max - min + 1)) + min;
   };
 
-  const game = (language = 'ru') => {
+  const game = (language) => {
     let lang;
     try {
       lang = Intl.DisplayNames(['en'], {
